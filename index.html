@@ -4,21 +4,20 @@
         <link rel="icon" href="MRN.png">
         <title>M. RN</title>
         <style>
-			html{
-				background:rgba(0,0,0,0.3) url("Shinobu Kocho Wallpaper 🦋.jpg") no-repeat center top;
-			}
-			*{
-				color:white;
-			}
+			body{margin:0;}
+			main{padding:10px;}
             th.study, td.study {
-                border: 1px solid rgb(0, 0, 0);
+                border: 2px solid rgb(0, 0, 0);
 				padding: 32px;
             }
+			table{
+				background-color:rgba(250,250,250,0.7);
+			}
             table.study {
   				border-collapse: collapse;
 				
             }
-            img {
+            img#profil {
                 float: left;
                 width: 250px;
                 height: 285px;
@@ -27,13 +26,21 @@
             pre {
                 font-size: 20px;
             }
+			img#back{
+				position:absolute;
+				top:0px;
+				z-index:-1;
+				width:100%;
+				opacity:0.5;
+			}
         </style>
     </head>
     <body>
+	<main>
         <h1>
             Biodata saya
         </h1>
-    	<img src="SAVE_20220625_094146.jpg">
+    	<img id='profil' src="SAVE_20220625_094146.jpg">
 		<table>
 			<tr>
 				<td>Nama</td>
@@ -102,5 +109,7 @@
                 <td class='study'>2022</td>
             </tr>
         </table>
+	</main>
+		<img src='Shinobu Kocho Wallpaper 🦋.jpg' style='' id='back'>
     </body>
 </html>
