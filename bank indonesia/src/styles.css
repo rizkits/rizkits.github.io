@@ -1,0 +1,60 @@
+body {margin:0;}
+*{font-family:arial;}
+a{text-decoration:none;}
+nav{float:right;}
+.colored-blue{color:#045498;}
+.nav:link, .nav:visited{
+	color:#045498;
+	display:inline-block;
+	padding:23px 0px 18px;
+	margin:0px 20px;
+}
+.nav:hover,.nav:active{
+	border-bottom:3px solid rgb(190, 0, 0);
+}
+.card {
+	min-width:200px;
+	width:30%;
+	border-radius:8px;
+	text-align:center;
+	padding:12px 0;
+	margin:10px;
+	display:block;
+	float:left;
+}
+.news {
+	width:50%;
+	float:left;
+	border-right:1px solid #045498;
+}
+.tautan {
+	padding-left:20px;
+	width:45%;
+	float:left;
+	margin-top:6px;
+}	
+section{
+	float:left;
+	width:33%;
+	margin-top: 30px;
+}
+.colored-white{color:#ffff;}
+ul{list-style-type:none;}
+.ahead:link,.ahead:visited{color:white;}
+.ahead:hover,.ahead:active {color:#ffc20e;}
+.amain:link,.amain:visited{color:black;}
+.amain:hover,.amain:active,.afoot:link,.afoot:visited {color:#045498;} 
+.afoot:hover,.afoot:active {
+	color:#045498;
+	text-decoration:underline;
+}
+.aset:link, .aset:visited{width:32px;}
+.aset:hover,.aset:active {width:34px;}
+.alet:link, .alet:visited{width:98px;}
+.alet:hover,.alet:active {width:103px;}
+.margin0{margin:0px;}
+.text-right{text-align:right;}
+.back-color{background:#045498;}
+hr{border:1px solid #045498;}
+.text-news{color:#909090;}
+.go{max-width:81%;margin:auto;}
