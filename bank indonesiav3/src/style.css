@@ -13,7 +13,7 @@ ul {
 .container {width: 89%; margin: auto;}
 .cont-main {width: 82%; margin: auto;}
 .clear {clear: both;}
-nav li {display: inline-block;}
+.menu, nav li, .news > h2, .news > a  {display: inline-block;}
 nav a, footer {font-size: 0.9rem;}
 #navbar1 li {
     border-left: 1px solid white;
@@ -24,14 +24,43 @@ nav a, footer {font-size: 0.9rem;}
 #navbar1 {
     text-align: right;
     padding: 9px 0;
+}
+#navbar1, .card {
     background: #045498;
 }
-#navbar1 a:hover {text-decoration: underline;}
+#navbar1 a:hover, .news > a:hover, footer li:hover {text-decoration: underline;}
 #navbar1 input {height: 30px;width: 250px;border-radius: 8px;border: none;background: #fff url("search.png") no-repeat right center;padding-left: 10px;}
 #navbar2 li {margin: 0 20px;padding: 19px 0;border-bottom: 3px solid white;border-top: 3px solid white;}
 #navbar2 li:hover {border-bottom: 3px solid rgb(156, 6, 6);border-top: 3px solid white;}
 #navbar2 {float: right;}
-.container a img {height: 58px;}
+header .container a img {height: 58px;}
 #headlines img {width: 100%;}
-#headlines {background: #58595b;padding-bottom: 1px;}
+#headlines {background: #58595b;padding-bottom: 1px;margin-bottom: 40px;}
 #headlines h2 {margin: 10px auto;}
+#headlines h2:hover a {color: #ffc20e;}
+.card a {text-align: center;}
+.card {width: 30%; border-radius: 10px;float: left; margin: 15px;min-width: 240px;}
+.news a > img {width: 267px; height: 167px;float: left;margin:auto 20px auto auto;}
+article {border-bottom: 1px solid #045498;min-width: 220px;}
+article:last-child {border: none;}
+article a h3 {color: black;}
+article a h3:hover, .menu:hover {color: #045498;}
+.news {width: 57%;padding-right: 15px; border-right: 1px solid #045498;min-width: 260px;float: left;margin-right: 12px;}
+.news > a {float: right;}
+.news h2 {margin-top: 0;}
+.menu img {width: 64px;}
+.menu {
+    color: black;
+    width: 130px;
+    text-align: center;
+    margin: 8px;
+}
+hr {margin-top: 50px;}
+footer nav {margin: 15px;text-align: right;}
+footer nav li a {color: #045498;}
+footer li {padding: 0 10px;}
+footer > a {margin: 0 10px;}
+footer a img:hover {height: 34px;}
+address {text-align: right;margin: 20px 0;color: #045498;}
+#foot p, #foot a {color: white;}
+#foot {background: #045498;}
