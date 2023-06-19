@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <clipPath id="clip-Artboard_5">
+      <rect width="64" height="64"/>
+    </clipPath>
+  </defs>
+  <g id="Artboard_5" data-name="Artboard – 5" clip-path="url(#clip-Artboard_5)">
+    <rect width="64" height="64" fill="#fff"/>
+    <g id="Group_638" data-name="Group 638" transform="translate(-980 -1334)">
+      <g id="Ellipse_31" data-name="Ellipse 31" transform="translate(980 1334)" fill="#fff" stroke="#065695" stroke-width="2">
+        <circle cx="32" cy="32" r="32" stroke="none"/>
+        <circle cx="32" cy="32" r="31" fill="none"/>
+      </g>
+      <g id="Group_127" data-name="Group 127" transform="translate(993.333 1343.778)">
+        <path id="Union_5" data-name="Union 5" d="M.082,12.445H0V0H26.666V12.445h-.082C25.847,14.445,20.2,16,13.334,16S.819,14.445.082,12.445Z" transform="translate(5.612 18.856)" fill="#045498"/>
+        <g id="Path_110" data-name="Path 110" transform="translate(18.946 0) rotate(45)" fill="#045498">
+          <path d="M 1.945837378501892 24.8471794128418 L 8.930012702941895 8.930012702941895 L 24.8471794128418 1.945837378501892 L 17.86299514770508 17.86299514770508 L 1.945837378501892 24.8471794128418 Z" stroke="none"/>
+          <path d="M 22.9013557434082 3.891647338867188 L 9.689006805419922 9.689006805419922 L 3.891647338867188 22.9013557434082 L 17.10400390625 17.10400390625 L 22.9013557434082 3.891647338867188 M 26.79300498962402 -3.814697265625e-06 L 18.62199401855469 18.62199401855469 L -3.814697265625e-06 26.79300498962402 L 8.171014785766602 8.171014785766602 L 26.79300498962402 -3.814697265625e-06 Z" stroke="none" fill="#045498"/>
+        </g>
+        <g id="Path_112" data-name="Path 112" transform="translate(18.946 0) rotate(45)" fill="none">
+          <path d="M8.171,8.171,26.793,0,18.622,18.622,0,26.793Z" stroke="none"/>
+          <path d="M 26.79300498962402 -3.814697265625e-06 L 8.171014785766602 8.171014785766602 L -3.814697265625e-06 26.79300498962402 L 18.62199401855469 18.62199401855469 L 26.79300498962402 -3.814697265625e-06 M 30.68465614318848 -3.891654968261719 L 28.62445449829102 0.8036060333251953 L 20.45344543457031 19.42560577392578 L 20.13998603820801 20.13998603820801 L 19.42560577392578 20.45344543457031 L 0.8036060333251953 28.62445449829102 L -3.891654968261719 30.68465614318848 L -1.831455230712891 25.98939514160156 L 6.339565277099609 7.367404937744141 L 6.653024673461914 6.653024673461914 L 7.367404937744141 6.339565277099609 L 25.98939514160156 -1.831455230712891 L 30.68465614318848 -3.891654968261719 Z" stroke="none" fill="#fff"/>
+        </g>
+        <path id="Path_111" data-name="Path 111" d="M1135,1140.1l8.4,3.625v13.8" transform="translate(-1116.054 -1121.155)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+        <g id="Ellipse_33" data-name="Ellipse 33" transform="translate(24.723 33.967)" fill="#fff" stroke="#045498" stroke-width="2">
+          <circle cx="2.667" cy="2.667" r="2.667" stroke="none"/>
+          <circle cx="2.667" cy="2.667" r="1.667" fill="none"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
