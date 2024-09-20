@@ -1,0 +1,52 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "PT Sans", "PT Sans", sans-serif;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+/* color 045498 */
+a{
+    text-decoration: none;
+    color: black;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    margin-block: 0;
+    background-color: #045498;
+}
+header li{
+    padding-block: 10px;
+}
+#search{
+    display: block;
+    margin-block: auto;
+    height: 35px;
+}
+header li a{
+    display: block;
+    padding-block: 6px;
+    padding-inline: 25px;
+    color: white;
+    font-size: 87%;
+    font-weight: 10;
+    border-left: 1px solid white;
+}
+header li:first-child, header li:last-child{
+    border: none;
+    padding-left: 0;
+}
+header div a{
+    color: #045498;
+    font-weight: 600;
+}
